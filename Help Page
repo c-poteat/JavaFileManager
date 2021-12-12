@@ -1,0 +1,56 @@
+# Help Page
+**_Enter a folder path for all commands. Example: C:\Users_**
+
+Available Commands
+
+**list** - Lists all files and folders within the directory.
+
+**info** - Provides information related to the contents of the file/folder.
+
+**mkdir** - This command creates a new directory in the specified location.
+
+**rename** - This command renames the file/folder in the specified location.
+
+**copy** - This option creates another folder within the location specified.
+
+**move** - Moves the file/folder to another specified location.
+
+**delete** - This command deletes the file/folder within the specific location.
+
+**quit** - This command exits the file manager. The file manager will need to be restarted.
+
+**Examples**
+```
+info
+Enter desired file/folder's path 
+C:\Users
+Name: users
+Absolute path: c:\users
+Relative path: c:\users
+Size: 4096
+Created: 20. September 2021. 17:29:25
+Last Modified: 20. September 2021. 13:51:05
+
+mkdir
+Enter new folder's path: 
+C:\Users\newFolder
+Created a folder called newfolder
+
+copy
+Enter path of file/folder you would like to copy/move: 
+C:\Users\newFolder
+Enter destination path: 
+C:\Users\newFolder2
+
+move
+Enter path of file/folder you would like to copy/move: 
+C:\Users\newFolder
+Enter destination path: 
+C:\Users\
+
+delete
+Enter path of file/folder you want to delete: 
+C:\Users\newFolder
+
+quit - You are exiting file manager.
+
